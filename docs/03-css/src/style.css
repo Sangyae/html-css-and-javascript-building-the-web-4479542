@@ -8,7 +8,7 @@ h1 {
 	text-align: center;
 }
 
-/* 
+
 #left-container {
 	left: 0px;
 }
@@ -83,12 +83,15 @@ h1 {
 	opacity: 0.7;
 	z-index: -1;
 }
+h1:hover{
+	color: aqua;
+}
 
 .jar-glossy-long {
 	width: 3%;
 	height: 20%;
 	border-radius: 2rem;
-	background: #ddfbff;
+	background: #054d57;
 	position: absolute;
 	bottom: 20%;
 	left: 5%;
@@ -98,8 +101,25 @@ h1 {
 	width: 3%;
 	height: 5%;
 	border-radius: 2rem;
-	background: #ddfbff;
+	background: #094e57;
 	position: absolute;
 	bottom: 45%;
 	left: 5%;
-} */
+} 
+
+.jar-glossy-short:hover{
+	height: 20px;
+	width: 20px;
+	background-color: aqua;
+	
+}
+
+
+.plant:hover{
+	animation: slide-in 2s ease-in;
+	transition: height 2s, width 2s, background-color 1s ;
+	height: 200px;
+	width: 200px;
+	background-color: aqua;
+	
+}
