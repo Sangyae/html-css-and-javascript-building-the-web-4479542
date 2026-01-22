@@ -30,3 +30,12 @@ function dragElement(terrariumElement) {
 
 dragElement(document.getElementById('plant1'));
 dragElement(document.getElementById('plant2'));
+
+function pointerDrag(e){
+    e.preventDefault();
+    console.log(e);
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onpointermove = elementDrag;
+    document.onpointerup = stopElementDrag;
+}
